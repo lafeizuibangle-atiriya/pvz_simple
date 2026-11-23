@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "pvz简单版"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Garden defense demo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "pvz简单版"
+    }
+  ]
+}

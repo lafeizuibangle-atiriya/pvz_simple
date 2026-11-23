@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\LENOVO\\.ohos\\config\\default_MyApplication_8b-MvPhxz2sBLhnqEUrCi0qm0yCFOoUwzt8FdUPtfO0=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A74B698895CA3EE74F7F1F279BDA69719E93C97D545027E1BDE803DF7BBEE5E5E3E8FC967EBE4",
+          "profile": "C:\\Users\\LENOVO\\.ohos\\config\\default_MyApplication_8b-MvPhxz2sBLhnqEUrCi0qm0yCFOoUwzt8FdUPtfO0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\LENOVO\\.ohos\\config\\default_MyApplication_8b-MvPhxz2sBLhnqEUrCi0qm0yCFOoUwzt8FdUPtfO0=.p12",
+          "storePassword": "0000001AB1019D5EEBA8A4577F00E1B9CFC2310BAC39B6E96D13BBA64A4A7B9043B6C1F1857CFEE4D8BB"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "targetSdkVersion": "6.0.2(22)"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
